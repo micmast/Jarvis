@@ -1,0 +1,19 @@
+Processing Unit
+-----------------
+- prior queues (low, medium, high)
+- processes in queue (python threads?) <-- how to prevent race conditions/dead locks.
+- index output devices
+- index input devices
+- index plugin devices
+
+- Start new processes
+- split processes into bits (multithreading) <-- threading?
+
+
+Input/Output/Plugins
+------
+- Module based
+- plugins are indexed and register as a syscall?
+	--> re-indexing & regenerating the syscall table
+
+
